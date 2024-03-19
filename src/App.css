@@ -1,0 +1,97 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  gap: 2px;
+}
+
+.sidebar {
+  width: 20px; /* Adjust the width of the sidebar as needed */
+  flex: 0 0 auto; /* Set the sidebar to a fixed width */
+  background-color: #f0f0f0; /* Set sidebar background color */
+}
+
+/* Other styles for Navbar and Dashboard components can be added here */
+.css-480o17-MuiGrid-root {
+  margin-left: 0px !important;
+}
+.outsidedive {
+  padding: 5px !important;
+  /* max-width: 1440px !important; */
+  /* background-color: #f0f0f0; */
+  /* height: 100vh; */
+}
+body {
+  background-color: #f0f0f0;
+}
+.css-480o17-MuiGrid-root {
+  width: calc(100% + 10px) !important;
+}
+.main-root {
+  background-color: #f4f5f8;
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+/* --------------------- */
+
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.jc-c {
+  justify-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.gap-0 {
+  gap: 0.5rem;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-3 {
+  gap: 3rem;
+}
+.w-full {
+  width: 100%;
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  box-shadow: none !important;
+  border-radius: 0px !important;
+}
+:root {
+  --scrollbar-width: 5px; /* Set your desired scrollbar width */
+}
+
+/* Define scrollbar styles */
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Adjust as needed */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Adjust as needed */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Adjust as needed */
+}

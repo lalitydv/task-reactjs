@@ -1,0 +1,38 @@
+.main {
+  /* background-color: white; */
+  /* padding: 10px !important;
+    border-radius: 0.5rem; */
+}
+.card-span {
+  background: #e1feec;
+  padding: 5px;
+  color: #5baf7d;
+  border-radius: 1.5rem;
+  gap: 0.2rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+.Compare {
+  white-space: nowrap;
+}
+.down {
+  color: #ac5d54;
+  background-color: #ffe2e2;
+}
+.card-h-2 {
+  font-size: x-large;
+  font-weight: 600;
+}
+.dashboard-head {
+  font-weight: 600;
+  font-size: 25px;
+  white-space: nowrap;
+}
+.card-div {
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+  .cards-div {
+    flex-wrap: wrap;
+  }
+}
